@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Cameras>
+  <Brand Text="Canon">
+    <Camera NavigateUrl="javascript:void(1);" Model="Canon EOS 400D" Pixels="10.1" ImageUrl="~/NavBar/Images/Cameras/canon_eos400d.gif" />
+    <Camera NavigateUrl="javascript:void(2);" Model="Canon EOS 30D" Pixels="8.2" ImageUrl="~/NavBar/Images/Cameras/canon_eos30d.gif" />
+    <Camera NavigateUrl="javascript:void(3);" Model="Canon EOS-1D Mark II N" Pixels="8.2" ImageUrl="~/NavBar/Images/Cameras/canon_eos1dmkiin.gif" />
+    <Camera NavigateUrl="javascript:void(4);" Model="Canon EOS 5D" Pixels="12.7" ImageUrl="~/NavBar/Images/Cameras/canon_eos5d.gif" />
+    <Camera NavigateUrl="javascript:void(5);" Model="Canon EOS 350D" Pixels="8.0" ImageUrl="~/NavBar/Images/Cameras/canon_eos350d.gif" />
+    <Camera NavigateUrl="javascript:void(6);" Model="Canon EOS-1Ds Mark II" Pixels="16.6" ImageUrl="~/NavBar/Images/Cameras/canon_eos1dsmkii.gif" />
+  </Brand>
+  <Brand Text="Nikon">
+    <Camera NavigateUrl="javascript:void(11);" Model="Nikon D80" Pixels="10.0" ImageUrl="~/NavBar/Images/Cameras/nikon_d80.gif" />
+    <Camera NavigateUrl="javascript:void(12);" Model="Nikon D2Xs" Pixels="12.2" ImageUrl="~/NavBar/Images/Cameras/nikon_d2xs.gif" />
+    <Camera NavigateUrl="javascript:void(13);" Model="Nikon D200" Pixels="10.0" ImageUrl="~/NavBar/Images/Cameras/nikon_d200.gif" />
+    <Camera NavigateUrl="javascript:void(14);" Model="Nikon D70s" Pixels="6.0" ImageUrl="~/NavBar/Images/Cameras/nikon_d70s.gif" />
+    <Camera NavigateUrl="javascript:void(15);" Model="Nikon D50" Pixels="6.0" ImageUrl="~/NavBar/Images/Cameras/nikon_d50.gif" />
+  </Brand>
+  <Brand Text="Olympus">
+    <Camera NavigateUrl="javascript:void(21);" Model="Olympus E-400" Pixels="10.0" ImageUrl="~/NavBar/Images/Cameras/oly_e400.gif" />
+    <Camera NavigateUrl="javascript:void(22);" Model="Olympus E-330" Pixels="7.4" ImageUrl="~/NavBar/Images/Cameras/oly_e330.gif" />
+    <Camera NavigateUrl="javascript:void(23);" Model="Olympus E-500" Pixels="8.0" ImageUrl="~/NavBar/Images/Cameras/oly_e500.gif" />
+    <Camera NavigateUrl="javascript:void(24);" Model="Olympus E-300" Pixels="8.0" ImageUrl="~/NavBar/Images/Cameras/oly_e300.gif" />
+  </Brand>
+  <Brand Text="Sony">
+    <Camera NavigateUrl="javascript:void(31);" Model="Sony DSLR-A100" Pixels="10.0" ImageUrl="~/NavBar/Images/Cameras/sony_dslra100.gif" />
+  </Brand>
+  <Brand Text="Pentax">
+    <Camera NavigateUrl="javascript:void(41);" Model="Pentax K10D" Pixels="10.0" ImageUrl="~/NavBar/Images/Cameras/pentax_k10d.gif" />
+    <Camera NavigateUrl="javascript:void(42);" Model="Pentax K100D" Pixels="6.1" ImageUrl="~/NavBar/Images/Cameras/pentax_k100d.gif" />
+    <Camera NavigateUrl="javascript:void(43);" Model="Pentax *ist DL2" Pixels="6.1" ImageUrl="~/NavBar/Images/Cameras/pentax_istdl2.gif" />
+  </Brand>
+</Cameras>

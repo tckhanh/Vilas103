@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B681C0F5-978D-45A0-A3B5-6D3860FD749D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevExpress.Web.Demos</RootNamespace>
+    <AssemblyName>Web.DemoData.v20.1</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <LangVersion>6</LangVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>obj_framework4</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Bin\Framework\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Bin\Framework\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v20.1"><HintPath>..\..\Bin\Framework\DevExpress.CodeParser.v20.1.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Printing.v20.1.Core"><HintPath>..\..\Bin\Framework\DevExpress.Printing.v20.1.Core.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Data.v20.1"><HintPath>..\..\Bin\Framework\DevExpress.Data.v20.1.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Web.v20.1"><HintPath>..\..\Bin\Framework\DevExpress.Web.v20.1.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Web.ASPxRichEdit.v20.1"><HintPath>..\..\Bin\Framework\DevExpress.Web.ASPxRichEdit.v20.1.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Spreadsheet.v20.1.Core"><HintPath>..\..\Bin\Framework\DevExpress.Spreadsheet.v20.1.Core.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="DevExpress.Office.v20.1.Core"><HintPath>..\..\Bin\Framework\DevExpress.Office.v20.1.Core.dll</HintPath><Private>False</Private></Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL"><Private>False</Private></Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL"><Private>False</Private></Reference>
+    <Reference Include="System"><Private>False</Private></Reference>
+    <Reference Include="System.configuration"><Private>False</Private></Reference>
+    <Reference Include="System.Core"><Private>False</Private></Reference>
+    <Reference Include="System.Drawing"><Private>False</Private></Reference>
+    <Reference Include="System.Web"><Private>False</Private></Reference>
+    <Reference Include="System.Xml.Linq"><Private>False</Private></Reference>
+    <Reference Include="System.Data.DataSetExtensions"><Private>False</Private></Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations"><Private>False</Private></Reference>
+    <Reference Include="Microsoft.CSharp"><Private>False</Private></Reference>
+    <Reference Include="System.Data"><Private>False</Private></Reference>
+    <Reference Include="System.Data.Linq"><Private>False</Private></Reference>
+    <Reference Include="System.Xml"><Private>False</Private></Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Compilation\ScssBuildProvider.cs" />
+    <Compile Include="Common\DemoHelper.cs" />
+    <Compile Include="Controls\BootstrapDemoItem.cs" />
+    <Compile Include="Common\CodeFormatter.cs" />
+    <Compile Include="Common\CodeViewerControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DataModels\OrgItemsModel.cs" />
+    <Compile Include="DataModels\FlowModel.cs" />
+    <Compile Include="DataModels\MedicsSchedulingDbModel.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\Departments.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\Stuff.cs" />
+    <Compile Include="Models\Bootstrap\DemoSectionModelBase.cs" />
+    <Compile Include="Models\Bootstrap\GettingStartedModel.cs" />
+    <Compile Include="Models\Bootstrap\Search.cs" />
+    <Compile Include="Models\Bootstrap\Utils.cs" />
+    <Compile Include="Models\Bootstrap\DemoGroupModel.cs" />
+    <Compile Include="Models\Bootstrap\DemoSectionModel.cs" />
+    <Compile Include="Models\Bootstrap\DemoModel.cs" />
+    <Compile Include="Models\Bootstrap\DemosModel.cs" />
+    <Compile Include="Models\DemoGroupModel.cs" />
+    <Compile Include="Models\DemoModel.cs" />
+    <Compile Include="Models\DemoModelBase.cs" />
+    <Compile Include="Models\DemoModelParser.cs" />
+    <Compile Include="Models\DemosModel.cs" />
+    <Compile Include="Common\DirectoryManagmentUtils.cs" />
+    <Compile Include="Models\ExternalDemoModel.cs" />
+    <Compile Include="Common\FullScreenModeUtils.cs" />
+    <Compile Include="Common\HiddenHtmlFormAdapter.cs" />
+    <Compile Include="Models\IntroFeatureModel.cs" />
+    <Compile Include="Models\IntroPageModel.cs" />
+    <Compile Include="Models\OverviewPageModel.cs" />
+    <Compile Include="Common\RichEditDemoUtils.cs" />
+    <Compile Include="Models\Search\SearchModel.cs" />
+    <Compile Include="Models\Search\SearchUtils.cs" />
+    <Compile Include="Models\ThemeGroupModel.cs" />
+    <Compile Include="Models\ThemeModel.cs" />
+    <Compile Include="Models\ThemeModelBase.cs" />
+    <Compile Include="Models\Bootstrap\ThemesModel.cs" />
+    <Compile Include="Models\ThemesModel.cs" />
+    <Compile Include="Common\UploadingUtils.cs" />
+    <Compile Include="Common\CloudStoragesUtils.cs" />
+    <Compile Include="Models\Search\SearchAgregator.cs" />
+    <Compile Include="Models\DevExtremeThemesModel.cs" />
+    <Compile Include="Models\ThemesModelBase.cs" />
+    <Compile Include="Models\Utils.cs" />
+    <Compile Include="DataModels\BinaryImagesModel.cs" />
+    <Compile Include="DataModels\ContextBase.cs" />
+    <Compile Include="DataModels\DatabaseGenerator.cs" />
+    <Compile Include="DataModels\DataDbModel.cs" />
+    <Compile Include="DataModels\DepartmentsModel.cs" />
+    <Compile Include="DataModels\EmailDataGenerator.cs" />
+    <Compile Include="DataModels\FishModel.cs" />
+    <Compile Include="DataModels\HeadphonesModel.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\Homes.cs" />
+    <Compile Include="DataModels\LargeDatabaseModel.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\Arts.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\LargeDatabase.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\Northwind.cs" />
+    <Compile Include="DataModels\MVC\DataProviders\WorldCities.cs" />
+    <Compile Include="DataModels\MVC\FullScreenViewerModel.cs" />
+    <Compile Include="DataModels\NewsGroupsModel.cs" />
+    <Compile Include="DataModels\NorthwindModel.cs" />
+    <Compile Include="DataModels\PatientsDataGenerator.cs" />
+    <Compile Include="DataModels\PersonDataGenerator.cs" />
+    <Compile Include="DataModels\Grids\Quotes.cs" />
+    <Compile Include="DataModels\WorldCitiesModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ResourcesUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Data\Themes.xml" />
+    <EmbeddedResource Include="Data\DevExtremeThemes.xml" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\EntityFramework.SqlServer.dll" />
+    <EmbeddedResource Include="Data\Icons\generic-carmine.svg">
+      <LogicalName>Data.Icons.generic-carmine.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-contrast.svg">
+      <LogicalName>Data.Icons.generic-contrast.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-dark.svg">
+      <LogicalName>Data.Icons.generic-dark.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-darkmoon.svg">
+      <LogicalName>Data.Icons.generic-darkmoon.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-darkviolet.svg">
+      <LogicalName>Data.Icons.generic-darkviolet.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-greenmist.svg">
+      <LogicalName>Data.Icons.generic-greenmist.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-light.svg">
+      <LogicalName>Data.Icons.generic-light.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Icons\generic-softblue.svg">
+      <LogicalName>Data.Icons.generic-softblue.svg</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Asp\Demos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Bootstrap\Demos.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data\Mvc\Demos.xml" />
+    <EmbeddedResource Include="Data\Bootstrap\Demos3.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Data\Components.xml" />
+    <EmbeddedResource Include="Data\Bootstrap\Themes.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

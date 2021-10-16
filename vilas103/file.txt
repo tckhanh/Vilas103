@@ -1,0 +1,5 @@
+2021-09-13 20:41:57.8457|INFO|vilas103.Default|Hello world
+2021-09-13 20:44:19.3756|INFO|vilas103.Default|Hello world
+2021-09-13 20:44:22.1606|ERROR|vilas103.Default|Goodbye cruel world
+2021-09-13 20:49:31.1345|INFO|vilas103.Default|Hello world
+2021-09-13 20:49:34.9665|ERROR|vilas103.Default|Goodbye cruel world

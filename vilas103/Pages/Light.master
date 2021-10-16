@@ -1,0 +1,8 @@
+<%@ Master Language="C#" MasterPageFile="~/Pages/Root.master" AutoEventWireup="true" CodeBehind="Light.master.cs" Inherits="vilas103.LightMaster" %>
+
+<%-- DXCOMMENT: Page Light.master is a master page for Account pages --%>
+<asp:Content ID="Content1" ContentPlaceHolderID="PageContent" runat="server">
+    <div class="content">
+<asp:ContentPlaceHolder ID="MainContent" runat="server" />
+</div>
+</asp:Content>

@@ -1,0 +1,12 @@
+<Themes>
+  <ThemeGroup Title="" Name="DevExtremeThemes" Float="Right">
+    <Theme Title="Light" Name="light" ShowAsTop="true" PreveiwColor="#E6E6E6" PreveiwIconResourceName="Data.Icons.generic-light.svg"></Theme>
+    <Theme Title="Dark" Name="dark" ShowAsTop="true" PreveiwColor="#444444" PreveiwIconResourceName="Data.Icons.generic-dark.svg"></Theme>
+    <Theme Title="SoftBlue" Name="softblue" PreveiwColor="#7AB8EB" PreveiwIconResourceName="Data.Icons.generic-softblue.svg"></Theme>
+    <Theme Title="Carmine" Name="carmine" PreveiwColor="#F05B41" PreveiwIconResourceName="Data.Icons.generic-carmine.svg"></Theme>
+    <Theme Title="Greenmist" Name="greenmist" PreveiwColor="#3CBAB2" PreveiwIconResourceName="Data.Icons.generic-greenmist.svg"></Theme>
+    <Theme Title="Darkmoon" Name="darkmoon" PreveiwColor="#3DEBD3" PreveiwIconResourceName="Data.Icons.generic-darkmoon.svg"></Theme>
+    <Theme Title="Darkviolet" Name="darkviolet" PreveiwColor="#9C63FF" PreveiwIconResourceName="Data.Icons.generic-darkviolet.svg"></Theme>
+    <Theme Title="Contrast" Name="contrast" PreveiwColor="#000000" PreveiwIconResourceName="Data.Icons.generic-contrast.svg"></Theme>
+  </ThemeGroup>
+</Themes>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groups>
+  <group Text="CHỌN LỌC" Name="Common">
+    <item Text="Tất cả" Name="All"/>
+    <item Text="Chưa kích hoạt" Name="InActivedUnBlocked" />
+    <item Text="Đang bị khoá" Name="ActivedBlocked" />
+    <item Text="Đã bị huỷ" Name="InactivedBlocked" />
+    <item Text="Đang sử dụng" Name="ActivedUnBlocked" />
+    <item Text="Do User cập nhật" Name="UpdatedBy" />
+    <item Text="Do User đại diện" Name="Owner" />
+  </group>
+</groups>

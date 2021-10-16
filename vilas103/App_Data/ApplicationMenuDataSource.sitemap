@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode url="javascript:void(0);" title="">
+    <siteMapNode url="~/Default.aspx" title="Home" />
+    <siteMapNode url="javascript:void(1);" title="Khai báo">
+      <siteMapNode url="~/Pages/StdType.aspx" title="Loại tiêu chuẩn" description="Loại tiêu chuẩn"/>
+      <siteMapNode url="~/Pages/Standard.aspx" title="Tiêu chuẩn" description="Tiêu chuẩn"/>
+      <siteMapNode url="~/Pages/EquGroup.aspx" title="Nhóm sản phẩm" description="Nhóm sản phẩm"/>
+      <siteMapNode url="~/Pages/EquType.aspx" title="Loại sản phẩm" description="Loại sản phẩm"/>
+      <siteMapNode url="~/Pages/Status.aspx" title="Trạng thái" description="Trạng thái"/>
+      <siteMapNode url="~/Pages/SysConfig.aspx" title="Cấu hình hệ thống" description="Cấu hình hệ thống"/>
+      <siteMapNode url="~/Pages/Company.aspx" title="Công ty" description="Công ty"/>
+      <siteMapNode url="~/Pages/CreateData.aspx" title="Tạo dữ liệu mẫu" description="Tạo dữ liệu mẫu"/>
+    </siteMapNode>
+    <siteMapNode url="javascript:void(2);" title="Tiếp nhận mẫu">
+      <siteMapNode url="~/Pages/RegRequest.aspx" title="Đăng ký đo kiểm" description="Đăng ký đo kiểm"/>
+      <siteMapNode url="~/Pages/RecRequest.aspx" title="Tiếp nhận đo kiểm" description="Tiếp nhận đo kiểm"/>
+    </siteMapNode>
+    <siteMapNode url="~/Pages/GridView.aspx" title="GridView" />
+    <siteMapNode url="~/Pages/Scheduler.aspx" title="Scheduler" />
+    <siteMapNode url="~/Pages/Article.aspx" title="Article" />
+  </siteMapNode>
+</siteMap>

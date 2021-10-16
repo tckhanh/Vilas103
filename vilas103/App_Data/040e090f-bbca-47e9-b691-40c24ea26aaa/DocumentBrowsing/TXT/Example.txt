@@ -1,0 +1,4 @@
+﻿Word processors can display documents in multiple font faces, such that "what you see is what you get" in the printed version.
+A word processor is an electric or electronic device, or computer software application, that, as directed by the user, performs word processing: the composition, editing, formatting, and sometimes printing of any sort of written material. Word processing can also refer to advanced shorthand techniques, sometimes used in specialized contexts with a specially modified typewriter. The term was coined at IBM's Böblingen, West Germany Laboratory in the 1960s. Typical features of a modern word processor include font application, spell checking, grammar checking, a built-in thesaurus, automatic text correction, Web integration, and HTML exporting, among others. In its simplest form, a word processor is little more than a large expensive typewriter that makes correcting mistakes easy.
+
+From Wikipedia, the free encyclopedia

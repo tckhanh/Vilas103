@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<groups>
+  <group Text="Admin">
+    <item Text="Scheduler" />
+    <item Text="Clients" />
+    <item Text="Users" />
+  </group>
+  <group Text="User">
+    <item Text="Notes" />
+    <item Text="Reports" />
+  </group>
+</groups>

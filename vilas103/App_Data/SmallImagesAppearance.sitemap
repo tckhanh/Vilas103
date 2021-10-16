@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+    <siteMapNode url="http://www.devexpress.com/" title="Developer Express">
+      <siteMapNode url="" title="Online" HeaderImageURL="~/NavBar/Images/Icq_OnLine.gif">
+        <siteMapNode url="" title="Bill" ImageURL="~/NavBar/Images/Icq_OnLine.gif"/>
+        <siteMapNode url="" title="Denny" ImageURL="~/NavBar/Images/Icq_OnLine.gif"/>
+        <siteMapNode url="" title="Diana" ImageURL="~/NavBar/Images/Icq_OnLine.gif"/>
+        <siteMapNode url="" title="Marcus" ImageURL="~/NavBar/Images/Icq_OnLine.gif"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Offline" HeaderImageURL="~/NavBar/Images/Icq_OffLine.gif">
+        <siteMapNode url="" title="Dave" ImageURL="~/NavBar/Images/Icq_OffLine.gif"/>
+        <siteMapNode url="" title="Jeff" ImageURL="~/NavBar/Images/Icq_OffLine.gif"/>
+        <siteMapNode url="" title="Matthew" ImageURL="~/NavBar/Images/Icq_OffLine.gif"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Not Available" HeaderImageURL="~/NavBar/Images/Icq_NA.gif">
+        <siteMapNode url="" title="Donald" ImageURL="~/NavBar/Images/Icq_NA.gif"/>
+        <siteMapNode url="" title="Kelly" ImageURL="~/NavBar/Images/Icq_NA.gif"/>
+        <siteMapNode url="" title="Tony" ImageURL="~/NavBar/Images/Icq_NA.gif"/>
+      </siteMapNode>
+    </siteMapNode>
+</siteMap>

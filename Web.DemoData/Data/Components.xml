@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Groups>
+	<Group Text="Scheduling">
+		<Product Text="ASPxScheduler" Index="0" />
+		<Product Text="AppointmentRecurrenceControl" Index="1" />
+		<Product Text="AppointmentRecurrenceForm" Index="2" />
+		<Product Text="ASPxDateNavigator" Index="3" />
+		<Product Text="ASPxResourceNavigator" Index="4" />
+		<Product Text="WeekOfMonthEdit" Index="5" />
+		<Product Text="YearlyRecurrenceControl" Index="6" />
+		<Product Text="ASPxTimeZoneEdit" Index="7" />
+		<Product Text="ASPxViewNavigator" Index="8" />
+		<Product Text="ASPxViewSelector" Index="9" />
+		<Product Text="ASPxViewVisibleInterval" Index="10" />
+		<Product Text="DailyRecurrenceControl" Index="11" />
+		<Product Text="MonthEdit" Index="12" />
+		<Product Text="MonthlyRecurrenceControl" Index="13" />
+		<Product Text="RecurrenceRangeControl" Index="14" />
+		<Product Text="RecurrenceTypeEdit" Index="15" />
+		<Product Text="WeekDaysCheckEdit" Index="16" />
+		<Product Text="WeekDaysEdit" Index="17" />
+		<Product Text="WeeklyRecurrenceControl" Index="18" />
+		<Product Text="ASPxSchedulerControlPrintAdapter" Index="19" />
+		<Product Text="ASPxSchedulerStoragePrintAdapter" Index="20" />
+	</Group>
+	<Group Text="Reporting">
+		<Product Text="ReportToolbar" Index="21" />
+		<Product Text="ReportViewer" Index="22" />
+	</Group>
+	<Group Text="Navigation &amp; Layout">
+		<Product Text="ASPxCallbackPanel" Index="23" />
+		<Product Text="ASPxCloudControl" Index="24" />
+		<Product Text="ASPxHeadline" Index="25" />
+		<Product Text="ASPxLoadingPanel" Index="26" />
+		<Product Text="ASPxMenu" Index="27" />
+		<Product Text="ASPxNavBar" Index="28" />
+		<Product Text="ASPxPageControl" Index="29" />
+		<Product Text="ASPxPager" Index="30" />
+		<Product Text="ASPxPanel" Index="31" />
+		<Product Text="ASPxPopupControl" Index="32" />
+		<Product Text="ASPxPopupMenu" Index="33" />
+		<Product Text="ASPxRoundPanel" Index="34" />
+		<Product Text="ASPxSiteMapControl" Index="35" />
+		<Product Text="ASPxSplitter" Index="36" />
+		<Product Text="ASPxTabControl" Index="37" />
+		<Product Text="ASPxTitleIndex" Index="38" />
+	</Group>
+	<Group Text="Data">
+		<Product Text="ASPxDataView" Index="39" />
+		<Product Text="ASPxFilterControl" Index="40" />
+		<Product Text="ASPxGaugeControl" Index="41" />
+		<Product Text="ASPxGridView" Index="42" />
+		<Product Text="ASPxGridViewExporter" Index="43" />
+		<Product Text="ASPxNewsControl" Index="44" />
+		<Product Text="ASPxPivotGrid" Index="45" />
+		<Product Text="ASPxPivotGridExporter" Index="46" />
+		<Product Text="ASPxSiteMapDataSource" Index="47" />
+		<Product Text="ASPxTreeList" Index="48" />
+		<Product Text="ASPxTreeListExporter" Index="49" />
+		<Product Text="LinqServerModeDataSource" Index="50" />
+		<Product Text="WebChartControl" Index="51" />
+		<Product Text="XpoDataSource" Index="52" />
+	</Group>
+	<Group Text="Components">
+		<Product Text="ASPxCallback" Index="53" />
+		<Product Text="ASPxGlobalEvents" Index="54" />
+		<Product Text="ASPxHiddenField" Index="55" />
+		<Product Text="ASPxSpellChecker" Index="56" />
+		<Product Text="ASPxTimer" Index="57" />
+	</Group>
+	<Group Text="Common Controls">
+		<Product Text="ASPxBinaryImage" Index="58" />
+		<Product Text="ASPxButton" Index="59" />
+		<Product Text="ASPxButtonEdit" Index="60" />
+		<Product Text="ASPxCalendar" Index="61" />
+		<Product Text="ASPxCaptcha" Index="62" />
+		<Product Text="ASPxCheckBox" Index="63" />
+		<Product Text="ASPxColorEdit" Index="64" />
+		<Product Text="ASPxComboBox" Index="65" />
+		<Product Text="ASPxDateEdit" Index="66" />
+		<Product Text="ASPxDropDownEdit" Index="67" />
+		<Product Text="ASPxHtmlEditor" Index="68" />
+		<Product Text="ASPxHyperLink" Index="69" />
+		<Product Text="ASPxImage" Index="70" />
+		<Product Text="ASPxLabel" Index="71" />
+		<Product Text="ASPxListBox" Index="72" />
+		<Product Text="ASPxMemo" Index="73" />
+		<Product Text="ASPxObjectContainer" Index="74" />
+		<Product Text="ASPxProgressBar" Index="75" />
+		<Product Text="ASPxRadioButton" Index="76" />
+		<Product Text="ASPxRadioButtonList" Index="77" />
+		<Product Text="ASPxRatingControl" Index="78" />
+		<Product Text="ASPxSpinEdit" Index="79" />
+		<Product Text="ASPxTextBox" Index="80" />
+		<Product Text="ASPxTimeEdit" Index="81" />
+		<Product Text="ASPxUploadControl" Index="82" />
+		<Product Text="ASPxValidationSummary" Index="83" />
+	</Group>
+</Groups>
+
